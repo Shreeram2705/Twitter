@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Twitter Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+
+            <div class="logo">𝕏</div>
+
+            <nav>
+                <div class="nav-item active">
+                    <span>⌂</span>
+                    <p>Home</p>
+                </div>
+
+                <div class="nav-item">
+                    <span>⌕</span>
+                    <p>Explore</p>
+                </div>
+
+                <div class="nav-item">
+                    <span>🔔</span>
+                    <p>Notifications</p>
+                </div>
+
+                <div class="nav-item">
+                    <span>✉</span>
+                    <p>Messages</p>
+                </div>
+
+                <div class="nav-item">
+                    <span>🔖</span>
+                    <p>Bookmarks</p>
+                </div>
+
+                <div class="nav-item">
+                    <span>👤</span>
+                    <p>Profile</p>
+                </div>
+            </nav>
+
+            <button class="post-button">
+                Post
+            </button>
+
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main">
+
+            <header class="top-header">
+                <h2>Home</h2>
+            </header>
+
+
+            <!-- Tweet Box -->
+            <section class="tweet-box">
+
+                <div class="avatar">JD</div>
+
+                <div class="tweet-input">
+
+                    <textarea
+                        id="tweetInput"
+                        placeholder="What is happening?!"
+                    ></textarea>
+
+                    <div class="tweet-bottom">
+
+                        <div class="tweet-icons">
+                            🖼️ 😊 📍
+                        </div>
+
+                        <button
+                            id="postTweet"
+                            class="small-post-button"
+                        >
+                            Post
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Tweets -->
+            <section id="tweets">
+
+                <!-- Tweet 1 -->
+                <article class="tweet">
+
+                    <div class="avatar">JD</div>
+
+                    <div class="tweet-content">
+
+                        <div class="user-info">
+                            <strong>John Doe</strong>
+                            <span>@johndoe</span>
+                            <span>· 2h</span>
+                        </div>
+
+                        <p>
+                            Just finished building my first website! 🚀
+                            Learning HTML and CSS is really fun.
+                        </p>
+
+                        <div class="tweet-image">
+                            MY WEBSITE 🚀
+                        </div>
+
+                        <div class="actions">
+                            <button>💬 <span>24</span></button>
+                            <button>🔁 <span>58</span></button>
+                            <button class="like-button">
+                                ❤️ <span>312</span>
+                            </button>
+                            <button>📊 <span>12K</span></button>
+                            <button>↗</button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Tweet 2 -->
+                <article class="tweet">
+
+                    <div class="avatar blue">AS</div>
+
+                    <div class="tweet-content">
+
+                        <div class="user-info">
+                            <strong>Alex Smith</strong>
+                            <span>@alexsmith</span>
+                            <span>· 4h</span>
+                        </div>
+
+                        <p>
+                            JavaScript tip of the day:
+                            Keep your code simple and readable. 💻
+                        </p>
+
+                        <div class="actions">
+                            <button>💬 <span>15</span></button>
+                            <button>🔁 <span>32</span></button>
+                            <button class="like-button">
+                                ❤️ <span>189</span>
+                            </button>
+                            <button>📊 <span>8K</span></button>
+                            <button>↗</button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Tweet 3 -->
+                <article class="tweet">
+
+                    <div class="avatar purple">MK</div>
+
+                    <div class="tweet-content">
+
+                        <div class="user-info">
+                            <strong>Mike Kumar</strong>
+                            <span>@mikekumar</span>
+                            <span>· 6h</span>
+                        </div>
+
+                        <p>
+                            Coding every day, one line at a time. 👨‍💻
+                            Never stop learning!
+                        </p>
+
+                        <div class="actions">
+                            <button>💬 <span>8</span></button>
+                            <button>🔁 <span>21</span></button>
+                            <button class="like-button">
+                                ❤️ <span>95</span>
+                            </button>
+                            <button>📊 <span>4K</span></button>
+                            <button>↗</button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </section>
+
+        </main>
+
+
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+
+            <div class="search-box">
+                🔍
+                <input
+                    type="text"
+                    placeholder="Search"
+                >
+            </div>
+
+
+            <!-- What's Happening -->
+            <div class="card">
+
+                <h2>What's happening</h2>
+
+                <div class="trend">
+                    <small>Trending in India</small>
+                    <strong>#WebDevelopment</strong>
+                    <small>25.4K posts</small>
+                </div>
+
+                <div class="trend">
+                    <small>Technology · Trending</small>
+                    <strong>JavaScript</strong>
+                    <small>18.2K posts</small>
+                </div>
+
+                <div class="trend">
+                    <small>Trending</small>
+                    <strong>#100DaysOfCode</strong>
+                    <small>12.8K posts</small>
+                </div>
+
+                <div class="trend">
+                    <small>Technology · Trending</small>
+                    <strong>HTML & CSS</strong>
+                    <small>9.6K posts</small>
+                </div>
+
+            </div>
+
+
+            <!-- Who to Follow -->
+            <div class="card">
+
+                <h2>Who to follow</h2>
+
+                <div class="follow-user">
+
+                    <div class="avatar green">TS</div>
+
+                    <div>
+                        <strong>Tech Space</strong>
+                        <small>@techspace</small>
+                    </div>
+
+                    <button>Follow</button>
+
+                </div>
+
+
+                <div class="follow-user">
+
+                    <div class="avatar orange">CW</div>
+
+                    <div>
+                        <strong>Code World</strong>
+                        <small>@codeworld</small>
+                    </div>
+
+                    <button>Follow</button>
+
+                </div>
+
+            </div>
+
+        </aside>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
